@@ -7,7 +7,7 @@ import java.sql.SQLException;
 public class ConexionBD {
     private static ConexionBD instancia;
     private Connection conexion;
-    private final String URL = "jdbc:sqlite:ACME.db";
+    private final String URL = "jdbc:sqlite:taller_progra.db";
 
     private ConexionBD() {
         try {
