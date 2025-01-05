@@ -1,9 +1,10 @@
-package utilidad;
+package dao;
 
 import com.mycompany.taller_progra.model.Articulo;
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
+import utilidad.ConexionBD;
 
 public class ArticuloDAO {
     private Connection conexion;

@@ -1,7 +1,7 @@
 package com.mycompany.taller_progra.soap;
 
 import com.mycompany.taller_progra.model.Articulo;
-import utilidad.ArticuloDAO;
+import dao.ArticuloDAO;
 import jakarta.jws.WebMethod;
 import jakarta.jws.WebService;
 import java.util.List;
